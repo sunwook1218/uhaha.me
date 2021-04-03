@@ -1,0 +1,35 @@
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+          var dataSet = [
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['', 2000, 1000],
+              ['Year', 'KOSPI', 'KOSDAQ']
+          ]
+
+    	dataSet.reverse();
+
+        var data = google.visualization.arrayToDataTable(dataSet);
+
+        var options = {
+          title: 'Quotation',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('tends_chart'));
+
+        chart.draw(data, options);
+      }
+
+
+</script>
