@@ -13,4 +13,4 @@ SpringBoot(SpringBoot2.4.4)& Mustache 환경으로 옮겨서 AWS 서버에 배�
 |Auth Logic|단순 로그인처리|Spring Security|
 |Configuration|xml config|java config|
 |DataAccess|Mybatis|JPA|
-|DataBase|MySQL|MariaDB|
+|DataBase|MySQL / local|MariaDB / AWS Cloud|
