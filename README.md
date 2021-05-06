@@ -14,3 +14,10 @@ SpringBoot(SpringBoot2.4.4)& Mustache 환경으로 옮겨서 AWS 서버에 배�
 |Configuration|xml config|java config|
 |DataAccess|Mybatis|JPA|
 |DataBase|MySQL / local|MariaDB / AWS Cloud|
+
+## 단축키 메모
+
+Ctrl Shift T -> 테스트로 이동 (없는 경우 Create 가능)  
+(리팩토링)  
+Ctrl Alt V -> 변수로 선언
+Ctrl Alt M -> 블록 선언한 부분을 method 로 선언
